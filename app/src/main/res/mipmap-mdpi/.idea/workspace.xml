@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d378f3c7-dc1f-47b4-a51f-88c7fcda758d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../drawable-xxxhdpi/tnc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/sensorgpsservice/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/sensorgpsservice/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/sensorgpsservice/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/sensorgpsservice/MainActivity2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/sensorgpsservice/UserinfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/sensorgpsservice/UserinfoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/sensorgpsservice/ui/gallery/GalleryViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/sensorgpsservice/ui/gallery/GalleryViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/sensorgpsservice/ui/slideshow/SlideshowViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/sensorgpsservice/ui/slideshow/SlideshowViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xxxhdpi/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xxxhdpi/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xxxhdpi/bg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xxxhdpi/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_main2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_userinfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_userinfo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/fragment_gallery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/fragment_gallery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../menu/activity_main_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../menu/activity_main_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../navigation/mobile_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/strings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="1uMVd2hlClTn7B5ENyPmfIuqeLn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../../../test app/17-4-2021" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d378f3c7-dc1f-47b4-a51f-88c7fcda758d" name="Default Changelist" comment="" />
+      <created>1624475528232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624475528232</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2106" y="275" key="FileChooserDialogImpl" timestamp="1624475580203">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1624475580203" />
+  </component>
+</project>

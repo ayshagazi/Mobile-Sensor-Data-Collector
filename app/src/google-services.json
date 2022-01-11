@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "988815803543",
+    "firebase_url": "https://sensordatacollection-4c35a-default-rtdb.firebaseio.com",
+    "project_id": "sensordatacollection-4c35a",
+    "storage_bucket": "sensordatacollection-4c35a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988815803543:android:42791c9a4b61b8998b95d2",
+        "android_client_info": {
+          "package_name": "com.example.sensorgpsservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988815803543-8h7rqse9g9kn0oi7ftavth8edt3u08dn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sensorgpsservice",
+            "certificate_hash": "b4a6dabdbf4fac95b65c15427550623be02b1572"
+          }
+        },
+        {
+          "client_id": "988815803543-sjuufomveiucscrdisvl38o0350fv98m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdMVW7aiV1wWcfipSbBcefteG1klYs_ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988815803543-sjuufomveiucscrdisvl38o0350fv98m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
