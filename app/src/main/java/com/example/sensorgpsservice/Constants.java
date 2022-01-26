@@ -41,6 +41,16 @@ class Constants {
 
 
 
+    //labeling
+    static double walk = 0.000000;
+    static double sit = 0.000000;
+    static double run = 0.000000;
+    static double sleep = 0.000000;
+    static double stair = 0.000000;
+
+
+
+
 
     //static final String ACTION_START_ACCELEROMETER_SERVICE = "onStartCommand";
 

@@ -21,9 +21,11 @@ public class tncFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+
         tncViewModel = new ViewModelProvider(this).get(tncViewModel.class);
         View root = inflater.inflate(R.layout.fragment_tnc, container, false);
         final TextView textView = root.findViewById(R.id.text_tnc);
+
         tncViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

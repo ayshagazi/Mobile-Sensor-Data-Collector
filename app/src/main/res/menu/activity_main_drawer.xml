@@ -9,6 +9,10 @@
             android:icon="@drawable/home"
             android:title="@string/menu_home" />
         <item
+            android:id="@+id/nav_label"
+            android:icon="@drawable/home"
+            android:title="Questionnires" />
+        <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/instructions"
             android:title="@string/menu_gallery" />
