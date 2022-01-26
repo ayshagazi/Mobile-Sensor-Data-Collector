@@ -20,6 +20,7 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
+    <string name="menu_label">Questionnires</string>
     <string name="menu_gallery">Instructions</string>
     <string name="menu_slideshow">About</string>
     <string name="menu_tnc">Terms and Conditions</string>
@@ -36,6 +37,12 @@
     <string name="tie_game">It\'s a Tie Game. Shake Hands!</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="questionnires">Questionnires</string>
+    <string name="instructions">Instructions</string>
+    <string name="about">About</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="tic_tac_toe">Tic-Tac-Toe</string>
+    <string name="exit">Exit</string>
 
 
 </resources>

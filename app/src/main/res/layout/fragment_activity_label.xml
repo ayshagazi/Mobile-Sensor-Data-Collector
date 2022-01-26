@@ -9,7 +9,7 @@
     android:layout_height="match_parent"
     android:id="@+id/layout"
     android:visibility="invisible"
-    tools:context=".ui.activity_label">
+    tools:context=".ui.label_bg.activity_label">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

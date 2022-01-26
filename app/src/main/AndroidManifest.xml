@@ -14,6 +14,10 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.SensorGPSService">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/custom_button" />
+
         <activity
             android:name=".labeling"
             android:exported="false" />

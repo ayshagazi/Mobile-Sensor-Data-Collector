@@ -1,6 +1,5 @@
 package com.example.sensorgpsservice.ui.home;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -15,12 +14,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.sensorgpsservice.R;
-import com.example.sensorgpsservice.labeling;
-import com.example.sensorgpsservice.ui.activity_label;
+import com.example.sensorgpsservice.ui.label_bg.activity_label;
+import com.example.sensorgpsservice.ui.label_bg.background;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -30,7 +30,6 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.Map;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
@@ -44,6 +43,8 @@ public class HomeFragment extends Fragment {
     TextView textView;
     private Button btn;
     String currentQuesKey = "";
+    private Object background;
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
@@ -51,21 +52,6 @@ public class HomeFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
         RadioGroup radioGroup = (RadioGroup) root.findViewById(R.id.radioGroup);
-
-      //  setVisibility();
-     /*   btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-              //  Intent intent1 = new Intent(home.this, testing.class);
-                Intent intent =new Intent(getContext(),testing.class);
-              //  intent1.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(intent);
-
-            }
-        });
-
-*/
-
 
 
         textView= (TextView)root.findViewById(R.id.textView2);
@@ -82,8 +68,10 @@ public class HomeFragment extends Fragment {
 
         // Read from the database
 
-        databaseReference.orderByChild("ShowTime").equalTo(currentDateandTime).addValueEventListener(new ValueEventListener() {
-            @Override
+     //   databaseReference.orderByChild("ShowTime").equalTo(currentDateandTime).addValueEventListener(new ValueEventListener() {
+        databaseReference.addValueEventListener(new ValueEventListener() {
+
+                @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 // This method is called once with the initial value and again
                 // whenever data at this location is updated.
@@ -135,7 +123,7 @@ public class HomeFragment extends Fragment {
 
                         String answer=radioButton.getText().toString();
                         //Log.d("answer", answer);
-
+/* db code
                         Map<String, Object> childUpdates = new HashMap<>();
 
                         childUpdates.put("answer", "Yes");
@@ -143,6 +131,7 @@ public class HomeFragment extends Fragment {
 
                         databaseReference2.child(currentQuesKey).setValue(childUpdates);
 
+                       db code */
                         new SweetAlertDialog(
                                 getContext(), SweetAlertDialog.SUCCESS_TYPE)
                                 .setTitleText("Thanks for your opinion!")
@@ -150,14 +139,14 @@ public class HomeFragment extends Fragment {
                                 .show();
 
 
-                        // setVisibility();
-                        Intent intent =new Intent(getContext(),labeling.class);
-                        startActivity(intent);
+                         setVisibility();
+                      //  Intent intent =new Intent(getContext(),labeling.class);
+                        //startActivity(intent);
                         break;
 
 
                     }
-
+/*
                     case R.id.option2:
                         // Fragment 2
                     {
@@ -187,7 +176,7 @@ public class HomeFragment extends Fragment {
                         break;
                     }
 
-
+*/
                 }
             }
         });
@@ -198,21 +187,10 @@ public class HomeFragment extends Fragment {
 
     private void setVisibility() {
 
-        activity_label h= new activity_label();
-        getActivity().getSupportFragmentManager().beginTransaction()
-                .replace(R.id.nav_host_fragment, h, "activity_label")
-                .addToBackStack(null)
-                .commit();
-c.setVisibility(View.INVISIBLE);
+        int commit = getFragmentManager().beginTransaction().replace(R.id.hhh, new background()).addToBackStack(null).commit();
+    c.setVisibility(View.INVISIBLE);
 
 
-
-       /* activity!!
-        .supportFragmentManager
-                .beginTransaction()
-                .replace(R.id.container, NewFragment.newInstance())
-                .commitNow()
-                */
     }
 
 

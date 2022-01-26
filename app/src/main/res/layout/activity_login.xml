@@ -4,18 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1"
+    android:background="@drawable/signinpage"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
 
     <com.google.android.gms.common.SignInButton
+        android:background="@xml/custom_button"
         android:id="@+id/sign_in_button"
-        android:layout_width="160dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="120dp"
         android:layout_height="70dp"
-        android:textAlignment="center"
-        />
+        android:textAlignment="center" />
 
 
 </LinearLayout>

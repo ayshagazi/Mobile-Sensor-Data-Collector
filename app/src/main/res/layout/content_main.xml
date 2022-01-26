@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/app_bar_main"
-    android:background="@drawable/home_bg">
+    android:background="#4B9C75">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +18,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_margin="25dp"
-            app:cardBackgroundColor="#B3E5FC"
+            app:cardBackgroundColor="#B8CCEA"
             app:cardCornerRadius="15dp">
 
             <fragment
@@ -25,6 +26,7 @@
                 android:name="androidx.navigation.fragment.NavHostFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+
                 app:defaultNavHost="true"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"

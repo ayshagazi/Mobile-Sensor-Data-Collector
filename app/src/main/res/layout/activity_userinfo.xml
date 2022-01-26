@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/form_bg"
+    android:background="#349F6D"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".UserinfoActivity">
@@ -12,7 +12,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardBackgroundColor="#81D4FA"
+        app:cardBackgroundColor="#eeee"
         android:layout_margin="25dp"
         android:elevation="10dp"
         app:cardCornerRadius="20dp">
@@ -156,7 +156,7 @@
             android:layout_marginTop="420dp"
             android:layout_marginRight="90dp"
             android:layout_marginBottom="20dp"
-            android:backgroundTint="#2d98da"
+            android:backgroundTint="#20A882"
             app:cornerRadius="25dp"
             android:textSize="18dp"
             android:text="Submit">

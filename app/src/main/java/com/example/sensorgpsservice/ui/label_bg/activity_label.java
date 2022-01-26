@@ -1,4 +1,4 @@
-package com.example.sensorgpsservice.ui;
+package com.example.sensorgpsservice.ui.label_bg;
 
 import android.os.Bundle;
 
@@ -142,8 +142,12 @@ public class activity_label extends Fragment {
             @Override
             public void onClick(View view) {
 
+           //     int commit = getFragmentManager().beginTransaction().replace(R.id.layout, new background()).addToBackStack(null).commit();
+
                 l.setVisibility(View.INVISIBLE);
+
                 addingLabeling();
+             //   int commit = getFragmentManager().beginTransaction().replace(R.id.layout, new background()).addToBackStack(null).commit();
 
             //    mToastRunnable.run();
             }
@@ -197,10 +201,7 @@ return root;
             l.setVisibility(View.VISIBLE);
 
             mHandler.postDelayed(this, 10000);
-            Toast.makeText(getActivity(), "This is a delayed toast", Toast.LENGTH_SHORT).show();
-
-
-
+         //   Toast.makeText(getActivity(), "This is a delayed toast", Toast.LENGTH_SHORT).show();
 
 
         }

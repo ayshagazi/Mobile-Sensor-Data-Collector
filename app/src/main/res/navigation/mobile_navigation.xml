@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/nav_label"
-        android:name="com.example.sensorgpsservice.ui.activity_label"
+        android:name="com.example.sensorgpsservice.ui.label_bg.activity_label"
         android:label="Labeling"
         tools:layout="@layout/fragment_activity_label" />
 

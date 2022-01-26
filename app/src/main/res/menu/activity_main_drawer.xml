@@ -11,26 +11,27 @@
         <item
             android:id="@+id/nav_label"
             android:icon="@drawable/home"
-            android:title="Questionnires" />
+            android:title="@string/questionnires" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/instructions"
-            android:title="@string/menu_gallery" />
+            android:title="@string/instructions" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/about"
-            android:title="@string/menu_slideshow" />
+            android:title="@string/about" />
         <item
             android:id="@+id/nav_tnc"
             android:icon="@drawable/tnc"
-            android:title="@string/menu_tnc" />
-        <item
-            android:id="@+id/nav_logout"
-            android:icon="@drawable/signout"
-            android:title="@string/menu_exit" />
+            android:title="@string/terms_and_conditions" />
         <item
             android:id="@+id/nav_tictactoe"
             android:icon="@drawable/ic_baseline_videogame_asset_24"
-            android:title="@string/tictactoe" />
+            android:title="@string/tic_tac_toe" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/signout"
+            android:title="@string/exit" />
+
     </group>
 </menu>

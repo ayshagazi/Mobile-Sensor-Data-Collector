@@ -12,6 +12,12 @@
     <color name="new2">#2D4861</color>
     <color name="colorAccentSecondary">#FF8814</color>
 
+    <color name="cyan">#14FFDC</color>
+    <color name="faded_cyan">#72C8C0</color>
+    <color name="paste">#57A37F</color>
+    <color name="Grey">#768180</color>
+
+
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>

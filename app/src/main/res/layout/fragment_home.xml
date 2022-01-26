@@ -11,65 +11,58 @@
     >
 
 
-
-
     <androidx.cardview.widget.CardView
+        android:id="@+id/card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardBackgroundColor="#BBDEFB"
         android:layout_margin="5dp"
         android:elevation="25dp"
         android:visibility="visible"
-        android:id="@+id/card"
+        app:cardBackgroundColor="#BBDEFB"
         app:cardCornerRadius="20dp">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/title_text"
-        android:textAlignment="center"
-        android:textColor="#000"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:lineSpacingExtra="5dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginBottom="10dp">
-    </TextView>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/title_text"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-    <RadioGroup
-        android:id="@+id/radioGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="85dp"
-        android:layout_marginBottom="20dp">
-
-        <RadioButton
-            android:id="@+id/option1"
+        <RadioGroup
+            android:id="@+id/radioGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/option1"
-            android:textSize="18sp"
-            android:textColor="#000">
-        </RadioButton>
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
 
-        <RadioButton
-            android:id="@+id/option2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/option2"
-            android:textSize="18sp"
-            android:textColor="#000">
-        </RadioButton>
+            <RadioButton
+                android:id="@+id/option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/option1"
+                android:textColor="#000"
+                android:textSize="18sp" />
 
-    </RadioGroup>
+            <RadioButton
+                android:id="@+id/option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/option2"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </RadioGroup>
 
     </androidx.cardview.widget.CardView>
-
-
 
 </LinearLayout>
