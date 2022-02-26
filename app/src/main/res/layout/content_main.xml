@@ -7,18 +7,20 @@
 
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/app_bar_main"
-    android:background="#4B9C75">
+    android:background="#DBFAE4">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_margin="25dp"
-            app:cardBackgroundColor="#B8CCEA"
+            app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="15dp">
 
             <fragment

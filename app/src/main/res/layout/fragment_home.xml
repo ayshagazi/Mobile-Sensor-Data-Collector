@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment"
+    android:background="@color/white"
     android:gravity="center"
     android:orientation="vertical"
     android:id="@+id/hhh"
@@ -18,7 +19,7 @@
         android:layout_margin="5dp"
         android:elevation="25dp"
         android:visibility="visible"
-        app:cardBackgroundColor="#BBDEFB"
+        app:cardBackgroundColor="#E5E4D7"
         app:cardCornerRadius="20dp">
 
         <TextView
@@ -49,18 +50,19 @@
                 android:id="@+id/option1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
                 android:text="@string/option1"
                 android:textColor="#000"
                 android:textSize="18sp" />
-
-            <RadioButton
-                android:id="@+id/option2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/option2"
-                android:textColor="#000"
-                android:textSize="18sp" />
-
+            <!--
+                        <RadioButton
+                            android:id="@+id/option2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/option2"
+                            android:textColor="#000"
+                            android:textSize="18sp" />
+            -->
         </RadioGroup>
 
     </androidx.cardview.widget.CardView>

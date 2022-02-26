@@ -16,10 +16,16 @@ public class SlideshowViewModel extends ViewModel {
                         "Mr. H M Zabir Haque \n" +
                         "Assistant Professor, \n" + "Department of Computer Science and Engineering, AUST. \n \n" +
                         "The Contributors of this application are: \n" +
-                        "[1]  17.01.04.004 \n -  Umme Habiba \n \n" +
-                        "[2]  17.01.04.015 \n -  Kazi Taqi Tahmid \n \n" +
-                        "[3]  17.01.04.024 \n -  Koushik Mallik \n \n" +
-                        "[4]  17.01.04.044 \n -  Khandaker Rezwan Ahmed \n \n"
+                        "[1]  180104053 \n - Samin Ahsan Tausif \n \n" +
+                        "[2]  180104076 \n - Aysha Gazi Mouri  \n \n" +
+                        "[3]  180104093 \n -  Ishfaq Rahman \n \n" +
+                        "[4]  180104031 \n -  Nilufar Hossain \n \n"+
+
+                        "The Previous Contributors of this application are: \n" +
+                                "[1]  17.01.04.004 \n -  Umme Habiba \n \n" +
+                                "[2]  17.01.04.015 \n -  Kazi Taqi Tahmid \n \n" +
+                                "[3]  17.01.04.024 \n -  Koushik Mallik \n \n" +
+                                "[4]  17.01.04.044 \n -  Khandaker Rezwan Ahmed \n \n"
                         );
     }
 

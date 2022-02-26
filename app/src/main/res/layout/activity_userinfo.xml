@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#349F6D"
+    android:background="#E5E4D7"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".UserinfoActivity">
@@ -12,9 +12,12 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardBackgroundColor="#eeee"
-        android:layout_margin="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
         android:elevation="10dp"
+        app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="20dp">
 
         <TextView
@@ -61,8 +64,7 @@
                 android:checked="false"
                 android:text="@string/aust"
                 android:textColor="@color/black"
-                android:textStyle="bold">
-            </RadioButton>
+                android:textStyle="bold"></RadioButton>
 
             <RadioButton
                 android:id="@+id/n_nsu"
@@ -72,8 +74,7 @@
                 android:checked="false"
                 android:text="@string/nsu"
                 android:textColor="@color/black"
-                android:textStyle="bold">
-            </RadioButton>
+                android:textStyle="bold"></RadioButton>
         </RadioGroup>
 
         <RadioGroup
@@ -90,8 +91,7 @@
                 android:checked="false"
                 android:text="@string/male"
                 android:textColor="@color/black"
-                android:textStyle="bold">
-            </RadioButton>
+                android:textStyle="bold"></RadioButton>
 
             <RadioButton
                 android:id="@+id/n_female"
@@ -101,8 +101,7 @@
                 android:checked="false"
                 android:text="@string/female"
                 android:textColor="@color/black"
-                android:textStyle="bold">
-            </RadioButton>
+                android:textStyle="bold"></RadioButton>
         </RadioGroup>
 
         <RadioGroup
@@ -120,8 +119,7 @@
                 android:checked="false"
                 android:text="@string/group2"
                 android:textColor="@color/black"
-                android:textStyle="bold">
-            </RadioButton>
+                android:textStyle="bold"></RadioButton>
 
             <RadioButton
                 android:id="@+id/b3"
@@ -131,8 +129,7 @@
                 android:checked="false"
                 android:text="@string/group3"
                 android:textColor="@color/black"
-                android:textStyle="bold">
-            </RadioButton>
+                android:textStyle="bold"></RadioButton>
 
             <RadioButton
                 android:id="@+id/b4"
@@ -143,8 +140,7 @@
                 android:checked="false"
                 android:text="@string/group4"
                 android:textColor="@color/black"
-                android:textStyle="bold">
-            </RadioButton>
+                android:textStyle="bold"></RadioButton>
         </RadioGroup>
 
 
@@ -156,11 +152,10 @@
             android:layout_marginTop="420dp"
             android:layout_marginRight="90dp"
             android:layout_marginBottom="20dp"
-            android:backgroundTint="#20A882"
-            app:cornerRadius="25dp"
+            android:backgroundTint="#2A7310"
+            android:text="Submit"
             android:textSize="18dp"
-            android:text="Submit">
-        </com.google.android.material.button.MaterialButton>
+            app:cornerRadius="25dp"></com.google.android.material.button.MaterialButton>
 
     </androidx.cardview.widget.CardView>
 

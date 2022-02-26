@@ -37,6 +37,7 @@ import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class HomeFragment extends Fragment {
 
+
     private HomeViewModel homeViewModel;
     private CardView c;
     private TextView thankyoutext;
@@ -138,10 +139,7 @@ public class HomeFragment extends Fragment {
                                 .setContentText("")
                                 .show();
 
-
-                         setVisibility();
-                      //  Intent intent =new Intent(getContext(),labeling.class);
-                        //startActivity(intent);
+                        setVisibility();
                         break;
 
 

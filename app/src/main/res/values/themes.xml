@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.SensorGPSService" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#21426A</item>
-        <item name="colorPrimaryVariant">#0277BD</item>
+        <item name="colorPrimary">#2A7310</item>
+        <item name="colorPrimaryVariant">#C6EFE9</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@android:color/holo_blue_dark</item>

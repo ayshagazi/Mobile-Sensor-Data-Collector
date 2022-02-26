@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Sensor Data Collector</string>
     <string name="title_text">Did you go for jogging today?</string>
-    <string name="option1">Yes</string>
+    <string name="option1">Acknowledged</string>
     <string name="option2">No</string>
     <string name="aust">AUST</string>
     <string name="nsu">Others</string>

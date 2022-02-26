@@ -39,6 +39,18 @@ public class LoginActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private int RC_SIGN_IN = 1;
 
+    public static class Utils {
+        private static FirebaseDatabase mDatabase;
+
+        public static FirebaseDatabase getDatabase() {
+            if (mDatabase == null) {
+                mDatabase = FirebaseDatabase.getInstance();
+                mDatabase.setPersistenceEnabled(true);
+            }
+            return mDatabase;
+        }
+
+    }
 
 
     @Override
@@ -48,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
         onFirst();
-
+        Utils.getDatabase();
 
         signInButton = findViewById(R.id.sign_in_button);
         mAuth = FirebaseAuth.getInstance();
@@ -149,6 +161,10 @@ public class LoginActivity extends AppCompatActivity {
         }
 
     }
+
+
+
+
 
 
     //t&c agreement confirm on first time

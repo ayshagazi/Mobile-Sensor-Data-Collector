@@ -328,15 +328,15 @@ public class MainActivity2 extends AppCompatActivity {
                      Constants.firebaseHandler=firebaseHandler;
                 Constants.sqliteHandler = sqliteHandler;
                 init(firebaseHandler,sqliteHandler);
-                Log.d("ZZZZ", "Value is: " +Constants.firebaseHandler );
-                Log.d("ZZZZ2", "Value is: " +Constants.sqliteHandler );
+               // Log.d("ZZZZ", "Value is: " +Constants.firebaseHandler );
+               // Log.d("ZZZZ2", "Value is: " +Constants.sqliteHandler );
 
             }
 
             @Override
             public void onCancelled(DatabaseError error) {
                 // Failed to read value
-                Log.w("ZZZZ", "Failed to read value.", error.toException());
+               // Log.w("ZZZZ", "Failed to read value.", error.toException());
             }
         });
     }

@@ -16,9 +16,12 @@
     <color name="faded_cyan">#72C8C0</color>
     <color name="paste">#57A37F</color>
     <color name="Grey">#768180</color>
+    <color name="green">#2A7310</color>
+
 
 
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
 </resources>

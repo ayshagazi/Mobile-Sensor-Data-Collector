@@ -124,6 +124,10 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         contentValuessesnordata.put(ORIENTATION_PITCH, Constants.pitch);
         contentValuessesnordata.put(ORIENTATION_ROLL, Constants.roll);
         contentValuessesnordata.put(LIGHT_V, Constants.light_v);
+        //
+
+
+        //
         contentValuessesnordata.put(GYROSCOPE_X, Constants.gyro_x);
         contentValuessesnordata.put(GYROSCOPE_Y, Constants.gyro_y);
         contentValuessesnordata.put(GYROSCOPE_Z, Constants.gyro_z);
@@ -176,7 +180,9 @@ public class DataBaseHelper extends SQLiteOpenHelper {
                 goingRoll=cursor.getString(cursor.getColumnIndex("ORIENTATION_ROLL"));
 
                 goinglight=cursor.getString(cursor.getColumnIndex("LIGHT_V"));
+//
 
+//
                 gyroX=cursor.getString(cursor.getColumnIndex("GYROSCOPE_X"));
                 gyroY=cursor.getString(cursor.getColumnIndex("GYROSCOPE_Y"));
                 gyroZ=cursor.getString(cursor.getColumnIndex("GYROSCOPE_Z"));

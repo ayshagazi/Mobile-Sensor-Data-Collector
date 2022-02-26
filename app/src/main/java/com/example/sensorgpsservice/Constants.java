@@ -1,5 +1,7 @@
 package com.example.sensorgpsservice;
 
+import kotlin.text.UStringsKt;
+
 class Constants {
     static final int LOCATION_SERVICE_ID = 175 ;
     static final String ACTION_START_LOCATION_SERVICE = "startLocationService";
@@ -47,6 +49,8 @@ class Constants {
     static double run = 0.000000;
     static double sleep = 0.000000;
     static double stair = 0.000000;
+
+    //static String screen;
 
 
 
